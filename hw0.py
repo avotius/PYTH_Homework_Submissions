@@ -201,18 +201,61 @@ one = 1
 zero = 0
 
 
+bool_one = bool(one)
+bool_zero = bool(zero)
+
+print("")
+print("Section A:")
+print(bool_one,type(bool_one))
+print(bool_zero,type(bool_zero))
+
+
 # B) Use typecasting to turn the resultant variables from part A into floats. Print the result and the datatype of the result.
+
+
+float_one = float(bool_one)
+float_zero = float(bool_zero)
+
+print("")
+print("Section B:")
+print(float_one,type(float_one))
+print(float_zero,type(float_zero))
 
 
 # C) Use typecasting to turn the resultant variables from part B back into booleans. Print the result and the datatype of the result.
 
 
+bool2_one = bool(float_one)
+bool2_zero = bool(float_zero)
+
+print("")
+print("Section C:")
+print(bool2_one,type(bool2_one))
+print(bool2_zero,type(bool2_zero))
+
+
 # C) Use typecasting to turn the resultant variables from part C into integers. Print the result and the datatype of the result.
+
+
+int_one = int(bool2_one)
+int_zero = int(bool2_zero)
+
+print("")
+print("Section D:")
+print(int_one, type(int_one))
+print(int_zero, type(int_zero))
 
 
 # E) Use typecasting to turn the variable below into a boolean value. Print the result and the datatype of the result.
 
 ten = 10
+
+
+bool_ten = bool(ten)
+
+print("")
+print("Section E:")
+print(bool_ten, type(bool_ten))
 
 """
 
