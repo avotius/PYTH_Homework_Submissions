@@ -87,7 +87,7 @@ neg_8 = -8
 neg_22 = -22
 
 
-# This should convert the variables in lines 84, 85, 86, 87 into floats.
+# This should convert the variables in lines 84, 85, 86, 87 into floats:
 float_five = float(five)
 float_zero = float(zero)
 float_neg_8 = float(neg_8)
@@ -98,7 +98,7 @@ print(float_zero,type(float_zero))
 print(float_neg_8,type(float_neg_8))
 print(float_neg_22,type(float_neg_22))
 
-# This will convert the variables in lines 91, 92, 93, 94 into integers.
+# This will convert the variables in lines 91, 92, 93, 94 into integers:
 int_five = int(float_five)
 int_zero = int(float_zero)
 int_neg_8 = int(float_neg_8)
@@ -128,6 +128,31 @@ zero = 0
 neg_8 = -8
 T = True
 F = False
+
+
+# This step is to check the original types of the variables:
+print(five,type(five))
+print(zero,type(zero))
+print(neg_8,type(neg_8))
+print(T,type(T))
+print(F,type(F))
+
+# This will convert the variables in lines 126, 127, 128, 129, 130 into strings:
+string_five = str(five)
+string_zero = str(zero)
+string_neg_8 = str(neg_8)
+string_T = str(T)
+string_F = str(F)
+
+print(string_five,type(string_five))
+print(string_zero,type(string_zero))
+print(string_neg_8,type(string_neg_8))
+print(string_T,type(string_T))
+print(string_F,type(string_F))
+
+# This will convert the variables in lines 141, 142, 143, 144, 145 into their original type:
+
+
 
 """
 
