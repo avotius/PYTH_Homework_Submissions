@@ -87,15 +87,27 @@ neg_8 = -8
 neg_22 = -22
 
 
+# This should convert the variables in lines 84, 85, 86, 87 into floats.
 float_five = float(five)
 float_zero = float(zero)
 float_neg_8 = float(neg_8)
 float_neg_22 = float(neg_22)
 
-print(float_five)
-print(float_zero)
-print(float_neg_8)
-print(float_neg_22)
+print(float_five,type(float_five))
+print(float_zero,type(float_zero))
+print(float_neg_8,type(float_neg_8))
+print(float_neg_22,type(float_neg_22))
+
+# This will convert the variables in lines 91, 92, 93, 94 into integers.
+int_five = int(float_five)
+int_zero = int(float_zero)
+int_neg_8 = int(float_neg_8)
+int_neg_22 = int(float_neg_22)
+
+print(int_five,type(int_five))
+print(int_zero,type(int_zero))
+print(int_neg_8,type(int_neg_8))
+print(int_neg_22,type(int_neg_22))
 
 
 """
