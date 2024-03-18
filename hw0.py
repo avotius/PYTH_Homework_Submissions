@@ -395,6 +395,17 @@ String Operators
 # Create two variables, each of which is half of a compound sentence. Do NOT add any punctuation up front. Add the two variables together, and print the result.
 ## Example compound sentence: "I'll go to the beach today, and I'll go snorkeling."
 
+
+beggining = "After class im going to make dinner"
+end = "maybe I'll make chicken."
+
+whole_sentence = beggining + ", " + end
+
+# Print the result
+print(whole_sentence)
+
+
+
 """
 
 ### P3.PY
