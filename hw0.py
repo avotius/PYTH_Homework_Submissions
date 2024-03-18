@@ -11,6 +11,12 @@ Placeholders
 
 # You're writing a program, and you don't know what your starting value for your 'initial' variable is yet. The program won't run if you leave it blank, but you don't want to forget you need it! Make a workaround.
 
+
+# This temp variable is just until you figure out what you are doing! Replace it with the apprpriate label ASAP!
+
+temp = something
+
+
 """
 
 ### P2.PY
@@ -25,8 +31,20 @@ Basic Variables
 # Create a variable that represents your favorite number, and add a note to remind yourself what this variable represents. Now print it out without re-typing the number.
 
 
+# Your favorite number is 6, remember? What food is traditionally eaten in the month you celebrate the number 6?
+six = 6
+turkey = six
+print(turkey)
+
 
 # Create another variable that represents your favorite color, and do the same steps as above.
+
+
+# The color that all comic sans should be displayed in.
+color = "cyan"
+comic_sans = color
+print(comic_sans)
+
 
 """
 
@@ -40,6 +58,13 @@ String Formatting
 """
 
 # Create a variable that contains the first 4 lines of your favorite song. Add a comment that includes the song title and artist **each on their own line**! Now print out this variable.
+
+# Song name: Part XI  
+# Artist: Prequell, Fyfe
+part_xi = "If I could be with my life\nI wouldn′t waste anymore time in the nightland\nI've run careless as you find me dancin\nI found my body"
+print(part_xi)
+
+
 
 """
 
@@ -60,6 +85,18 @@ five = 5
 zero = 0
 neg_8 = -8
 neg_22 = -22
+
+
+float_five = float(five)
+float_zero = float(zero)
+float_neg_8 = float(neg_8)
+float_neg_22 = float(neg_22)
+
+print(float_five)
+print(float_zero)
+print(float_neg_8)
+print(float_neg_22)
+
 
 """
 
