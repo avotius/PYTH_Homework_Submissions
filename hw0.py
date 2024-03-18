@@ -131,6 +131,8 @@ F = False
 
 
 # This step is to check the original types of the variables:
+print("")
+print("Here are the original variable types:")
 print(five,type(five))
 print(zero,type(zero))
 print(neg_8,type(neg_8))
@@ -144,6 +146,8 @@ string_neg_8 = str(neg_8)
 string_T = str(T)
 string_F = str(F)
 
+print("")
+print("Here are the original variables converted into strings:")
 print(string_five,type(string_five))
 print(string_zero,type(string_zero))
 print(string_neg_8,type(string_neg_8))
@@ -151,7 +155,32 @@ print(string_T,type(string_T))
 print(string_F,type(string_F))
 
 # This will convert the variables in lines 141, 142, 143, 144, 145 into their original type:
+int_five = int(string_five)
+int_zero = int(string_zero)
+int_neg_8 = int(neg_8)
+bool_T = bool(string_T)
+bool_F = bool(string_F)
 
+# This will inproperly print bool_F as 'True' but I dont know why:
+print("")
+print("Here are the converted variables reconverted back to their original type, but with an issue with the False boolean:")
+print(int_five,type(int_five))
+print(int_zero,type(int_zero))
+print(int_neg_8,type(int_neg_8))
+print(bool_T,type(bool_T))
+print(bool_F,type(bool_F))
+
+# This will change bool_F to False:
+bool_F = False
+
+# This will properly print bool_F as 'False':
+print("")
+print("Here are the converted variables reconverted back to their orignal type with corrected False boolean:")
+print(int_five,type(int_five))
+print(int_zero,type(int_zero))
+print(int_neg_8,type(int_neg_8))
+print(bool_T,type(bool_T))
+print(bool_F,type(bool_F))
 
 
 """
