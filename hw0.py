@@ -276,11 +276,42 @@ bool_true = True
 bool_false = False
 
 
+bool_one = bool(one)
+bool_zero = bool(zero)
+
+print("")
+print("Section A:")
+print(bool_one,type(bool_one))
+print(bool_zero,type(bool_zero))
+print(bool_true,type(bool_true))
+print(bool_false,type(bool_false))
+
+
 # B) Use typecasting to turn the latest values for variables 'one' and 'zero' back into integers. Print the result and the datatype of the result.
+
+
+int_one = int(bool_one)
+int_zero = int(bool_zero)
+
+print("")
+print("Section B:")
+print(int_one,type(int_one))
+print(int_zero,type(int_zero))
 
 
 
 # C) Use typecasting to turn the latest values for variables 'bool_true' and 'bool_false' back into boolean values. Print the result and the datatype of the result.
+
+
+bool2_true = bool(bool2_one)
+bool2_false = bool(bool2_zero)
+
+print("")
+print("Section C:")
+print(bool2_true,type(bool2_true))
+print(bool2_false,type(bool2_false))
+
+
 
 """
 
@@ -299,15 +330,56 @@ Integer & Float Operators
 
 orig_var = 100
 
+
+print("")
+print("Original Variable =",orig_var)
+
+
 # Add 50
+
+print("")
+print("Add 50")
+orig_var += 50
+print(orig_var)
+
 
 # Subtract 90
 
+
+print("")
+print("Subtract 90")
+orig_var -= 90
+print(orig_var)
+
+
 # Multiply 10
+
+
+print("")
+print("Multiply 10")
+orig_var *= 10
+print(orig_var)
+
 
 # Divide 150
 
+
+# Note type changes from integer to float here.
+print("")
+print("Divide 150")
+orig_var /= 150
+print(orig_var)
+
+
 # Modulus 3
+
+
+# I think this is saying 4/3=1.333333, and 1/3 of 3 is 1, so 1. 
+print("")
+print("Modulus 3")
+orig_var %= 3
+print(orig_var)
+
 
 """
 
