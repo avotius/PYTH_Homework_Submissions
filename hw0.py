@@ -170,7 +170,7 @@ print(int_neg_8,type(int_neg_8))
 print(bool_T,type(bool_T))
 print(bool_F,type(bool_F))
 
-# This will change bool_F to False:
+# This will correct the bool_F error:
 bool_F = False
 
 # This will properly print bool_F as 'False':
