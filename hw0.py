@@ -129,7 +129,7 @@ neg_8 = -8
 T = True
 F = False
 
-
+# As I went on I think the answers are starting to get hard to read so I started messing with formatting them.
 # This step is to check the original types of the variables:
 print("")
 print("Here are the original variable types:")
@@ -424,16 +424,36 @@ a = 0
 b = 2
 
 
+a = 0
+b = 2
+
+Part_A = a + b
+print("A:",Part_A)
+
 
 # B)
 c = '0'
 d = '2'
 
 
+c = '0'
+d = '2'
+
+Part_B = c + d
+print("B:",Part_B)
+
 
 # C)
 e = "0"
 f = 2
+
+
+e = "0"
+f = 2
+
+Part_C = int(e) + f
+print("C:",Part_C)
+
 
 """
 
@@ -453,13 +473,24 @@ a = True
 b = True
 
 
+bool_a = a + b
+print("A:",bool_a)
+
 
 # B)
 c = False
 d = False
 
 
+bool_b = c + d
+print("B:",bool_b)
+
 
 # C)
 e = True
 f = False
+
+
+bool_c = e + f
+print("C:",bool_c)
+
