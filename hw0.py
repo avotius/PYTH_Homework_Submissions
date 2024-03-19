@@ -303,8 +303,8 @@ print(int_zero,type(int_zero))
 # C) Use typecasting to turn the latest values for variables 'bool_true' and 'bool_false' back into boolean values. Print the result and the datatype of the result.
 
 
-bool2_true = bool(bool2_one)
-bool2_false = bool(bool2_zero)
+bool2_true = bool(bool_true)
+bool2_false = bool(bool_false)
 
 print("")
 print("Section C:")
